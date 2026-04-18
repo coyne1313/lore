@@ -1,0 +1,32 @@
+{
+  "name": "lore-cli",
+  "version": "0.1.0",
+  "description": "Institutional memory for dev teams. Capture intent at commit time. Query it forever.",
+  "type": "module",
+  "bin": {
+    "lore": "./bin/lore.js"
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/.bin/jest"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@lancedb/lancedb": "^0.27.2",
+    "apache-arrow": "^18.1.0",
+    "chalk": "^5.3.0",
+    "commander": "^12.0.0",
+    "openai": "^6.34.0",
+    "ora": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "developer-tools",
+    "knowledge-management",
+    "git",
+    "ai",
+    "cli"
+  ],
+  "license": "MIT"
+}
